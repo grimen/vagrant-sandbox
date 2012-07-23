@@ -6,7 +6,4 @@ bundle
 # 2. Install Chef coobooks
 bundle exec librarian-chef install
 
-# 3. Install
-# sudo pip install blueprint
-
 # ...
