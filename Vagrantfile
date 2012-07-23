@@ -10,11 +10,11 @@ Vagrant::Config.run do |config|
 
     default.vm.customize ['modifyvm', :id, '--memory', 512, '--cpus', '4']
 
-    default.vm.box = 'base'
-    # default.vm.box_url = "http://files.vagrantup.com/lucid64.box"
+    default.vm.box = 'base64'
+    default.vm.box_url = 'http://files.vagrantup.com/precise64.box' # not latest guest additions
 
     default.vbguest.auto_update = true
-    default.vbguest.no_remote = true
+    default.vbguest.no_remote = false
 
     # default.vm.boot_mode = :gui
 
