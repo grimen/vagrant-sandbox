@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+# 1. Install Ruby gems
+bundle
+
+# 2. Install Chef coobooks
+bundle exec librarian-chef install
+
+# 3. Install
+# sudo pip install blueprint
+
+# ...

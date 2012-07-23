@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+site 'http://community.opscode.com/api/v1'
+
+# cookbook 'chef-client'
+
+cookbook 'apt',
+  git: 'https://github.com/fnichol/chef-apt'
+
+cookbook 'build-essential'
+
+cookbook 'git',
+  git: 'https://github.com/fnichol/chef-git.git'
+
+cookbook 'rvm',
+  git: 'git://github.com/fnichol/chef-rvm.git', ref: 'v0.9.0'

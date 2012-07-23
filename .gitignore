@@ -1,0 +1,13 @@
+.DS_Store
+.bundle
+.vagrant
+.rvmrc
+*~*
+boxes/*
+cookbooks/*
+vendor/*
+log
+tmp
+*.box
+Gemfile.lock
+Cheffile.lock
