@@ -9,8 +9,7 @@ cookbook 'apt',
 
 cookbook 'build-essential'
 
-cookbook 'git',
-  git: 'https://github.com/fnichol/chef-git.git'
+cookbook 'git'
 
 cookbook 'rvm',
   git: 'git://github.com/fnichol/chef-rvm.git', ref: 'v0.9.0'
