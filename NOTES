@@ -6,3 +6,5 @@
 - https://github.com/ejholmes/vagrant-heroku
 - https://github.com/lstoll/heroku-buildpack-perl/blob/master/Vagrantfile
 - https://github.com/librato/silverline-cookbook
+- http://berkshelf.com
+- http://christian-trabold.de/librarian-chef-vs-berkshelf
