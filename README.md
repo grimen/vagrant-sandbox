@@ -22,3 +22,5 @@ $ vagrant up
 ## License
 
 Released under the MIT license. Copyright © Jonas Grimfelt
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/grimen/vagrant-sandbox/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
